@@ -5,7 +5,7 @@
 
 
 #Please note this program requires gamegenie.py (reused under MIT license) as a
-#dependency. Please esure it is present in python's root directory. 
+#dependency. Please ensure it is present in python's root directory. 
 #If not included with this script, you can download it here: 
 #https://github.com/Jarhmander/gamegenie
 #just remember to change the "xrange" in line 16 to "range" if you wish for it 
@@ -50,7 +50,7 @@ while x < number_of_codes:
     #deciphers the code into an address and value
     a = gg.decode(code)
     
-    #replaces the value with a random number between 1 and 255, then re-encodes
+    #replaces the value with a random number between 0 and 255, then re-encodes
     b = gg.encode(a["address"], random.randint(0, 255))
     
     #adds the code to a list
