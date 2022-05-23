@@ -71,7 +71,7 @@ by default), open Jupyter notebook, click
 the name of whichever one you'd like to run, then click "run" at the 
 top to start it.
 
-============================================================================
+===========================================================================
 
 Dependencies: 
 Please also note the part of this program that converts game genie codes 
