@@ -22,12 +22,7 @@ follows:
 NES_game_genie_generator is a script that generates NES codes for a 
 game based on input of existing codes for that game. By default, it 
 will read these from the file "source.txt", in which you should type 
-your game genie codes line-by-line, like this: 
-
-AAAAAA 
-BBBBBB 
-CCCCCC 
-... 
+your game genie codes one-to-a-line.
 
 save as a text file, and put in your python root directory (most
 installations will use C:/Users/(your name) by default).Once 
