@@ -24,10 +24,10 @@ game based on input of existing codes for that game. By default, it
 will read these from the file "source.txt", in which you should type 
 your game genie codes line-by-line, like this: 
 
-AAAAAA
-BBBBBB
-CCCCCC
-...
+AAAAAA 
+BBBBBB 
+CCCCCC 
+... 
 
 save as a text file, and put in your python root directory (most
 installations will use C:/Users/(your name) by default).Once 
