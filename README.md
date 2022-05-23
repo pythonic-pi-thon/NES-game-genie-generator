@@ -36,7 +36,8 @@ sites (mainly, https://themushroomkingdom.net/smb_ggcodes.shtml and
 https://www.consoledatabase.com/cheats/nes/supermariobros/) following
 a Google search for "Super mario bros. Game Genie codes", and
 allows for demonstration/evaluation without the need to compile one's
-own list. 
+own list as well as documenting the codes that were used for 
+development and testing.
 
 NES_game_genie_list_gen is similar to NES_game_genie_generator with
 one exception: it will run NES_game_genie_generator in a loop many 
