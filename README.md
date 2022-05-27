@@ -87,3 +87,28 @@ You may also wish to delete lines 56 - 58 as they raise an error that
 appears quite frequently but can be safely ignored. The copy of 
 gamegenie.py included with this script has had these changes made in 
 advance. 
+
+===========================================================================
+
+About game_genie_preprocess:
+This is meant as something of a companion script to NES_game_genie_generator 
+and NES_game_genie_list_gen. Say you're compiling codes from various sources 
+such as an old Game Genie guide book, old notes, online sources, and etc. 
+It's not unlikely that some of the codes might be mistyped, may contain 
+lowercase letters, may not be six characters long (while eight-character 
+NES codes do exist, they aren't supported by this program since splicing 
+them with six-character codes would create an invalid seven-character code),
+or may contain letters such as B and D that were not possible to enter on an
+original NES game genie and won't be compatible with the aforementioned 
+programs. Trying to pin down the exact code(s) causing problems out of a 
+long list can be troublesome. Fortunately, this script is meant to fix 
+all of those problems and produce a file that's ready to use with the 
+other scripts. 
+
+Simply enter your codes one-to-a-line in a text file, save it to python's
+root directory as "codes.txt", and this program will output a "cleaned" 
+list of codes in the file "codes_cleaned.txt" (this is so it won't 
+overwrite or change any "source.txt" list that happens to be present), 
+printing out a summary of any changes made in the process. The 
+codes_cleaned.txt file can then be renamed for further use. Just like 
+the other scripts, this is available as both a .py and a .ipynb file.
